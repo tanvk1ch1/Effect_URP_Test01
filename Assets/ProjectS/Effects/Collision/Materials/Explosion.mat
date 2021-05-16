@@ -95,8 +95,8 @@ Material:
     m_Ints: []
     m_Floats:
     - Boolean_D23BE65D: 0
-    - Vector1_18BDA505: 1
-    - Vector1_2A6E6D87: 0
+    - Vector1_18BDA505: 6
+    - Vector1_2A6E6D87: 1
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
