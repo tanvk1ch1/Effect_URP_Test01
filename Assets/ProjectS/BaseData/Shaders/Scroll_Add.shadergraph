@@ -98,7 +98,7 @@
             "m_Id": "86922a4e1aee48299f047bfed5b8445f"
         },
         {
-            "m_Id": "e5e8992993d848cdb7dd0e41bb664222"
+            "m_Id": "ce15131637784da4b8267f12a545e6e3"
         }
     ],
     "m_GroupDatas": [],
@@ -155,9 +155,9 @@
             },
             "m_InputSlot": {
                 "m_Node": {
-                    "m_Id": "e5e8992993d848cdb7dd0e41bb664222"
+                    "m_Id": "ce15131637784da4b8267f12a545e6e3"
                 },
-                "m_SlotId": -1997595049
+                "m_SlotId": -335676867
             }
         },
         {
@@ -289,6 +289,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "ce15131637784da4b8267f12a545e6e3"
+                },
+                "m_SlotId": 1
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "864ac58010e7486db70a22585abad985"
+                },
+                "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "ce62abb947584e4f970f4d43db7eef0e"
                 },
                 "m_SlotId": 2
@@ -324,20 +338,6 @@
             "m_InputSlot": {
                 "m_Node": {
                     "m_Id": "7f0200cce05b44b6a7a89af38b0e6191"
-                },
-                "m_SlotId": 1
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "e5e8992993d848cdb7dd0e41bb664222"
-                },
-                "m_SlotId": 1
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "864ac58010e7486db70a22585abad985"
                 },
                 "m_SlotId": 1
             }
@@ -1086,21 +1086,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "3e12987e83484cea80bbdc45a1c75ff0",
-    "m_Id": 1,
-    "m_DisplayName": "Out_Vector1",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "OutVector1",
-    "m_StageCapability": 2,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "46a780b7f49648d0ad10837aa1b0da1d",
     "m_Group": {
@@ -1458,6 +1443,21 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "614d5d98073345108a1ff03f9797a536",
+    "m_Id": -335676867,
+    "m_DisplayName": "Soft Particle Offset",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Vector1_f5071a7956973f89abd81655c2c0e20c",
+    "m_StageCapability": 2,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
     "m_ObjectId": "6581fe7efaa04080adbae7e776f3ed57",
     "m_Id": 0,
@@ -1603,6 +1603,21 @@
         "e32": 0.0,
         "e33": 1.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "718b6b992f4d4e7596d753b18f3a36d5",
+    "m_Id": 1,
+    "m_DisplayName": "Out_Vector1",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "OutVector1",
+    "m_StageCapability": 2,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
@@ -2727,6 +2742,48 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.SubGraphNode",
+    "m_ObjectId": "ce15131637784da4b8267f12a545e6e3",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "SoftParticle",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -632.0,
+            "y": 123.99999237060547,
+            "width": 262.4000244140625,
+            "height": 277.6000061035156
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "614d5d98073345108a1ff03f9797a536"
+        },
+        {
+            "m_Id": "718b6b992f4d4e7596d753b18f3a36d5"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"a94dbac552379aa4286d683315d627f7\",\n        \"type\": 3\n    }\n}",
+    "m_PropertyGuids": [
+        "d717be02-abea-44a6-87d7-97286da12d99"
+    ],
+    "m_PropertyIds": [
+        -335676867
+    ]
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "ce62abb947584e4f970f4d43db7eef0e",
     "m_Group": {
@@ -2783,21 +2840,6 @@
     },
     "m_Labels": [],
     "m_Channel": 0
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "d5e932c107cb4029a4d472cd5261ebbe",
-    "m_Id": -1997595049,
-    "m_DisplayName": "SoftParticleOffset",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "SoftParticleOffset",
-    "m_StageCapability": 2,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
 }
 
 {
@@ -2950,48 +2992,6 @@
         "m_SerializableColors": []
     },
     "m_Value": 0.0
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.SubGraphNode",
-    "m_ObjectId": "e5e8992993d848cdb7dd0e41bb664222",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "SoftParticle",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": -692.0,
-            "y": 188.8000030517578,
-            "width": 256.0000305175781,
-            "height": 278.4000244140625
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "d5e932c107cb4029a4d472cd5261ebbe"
-        },
-        {
-            "m_Id": "3e12987e83484cea80bbdc45a1c75ff0"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"05d2e48e3828c5142b981a4fccf6306c\",\n        \"type\": 3\n    }\n}",
-    "m_PropertyGuids": [
-        "eccf506b-b220-4ebe-b4ce-d6dddc64b382"
-    ],
-    "m_PropertyIds": [
-        -1997595049
-    ]
 }
 
 {
